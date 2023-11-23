@@ -1,7 +1,7 @@
 
 import './App.css'
-import InfoOne from './Common/InfoOne'
-import InfoTwo from './Common/InfoTwo'
+import InfoOne from './Components/InfoOne/InfoOne'
+import InfoTwo from './Components/InfoTwo/InfoTwo'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'

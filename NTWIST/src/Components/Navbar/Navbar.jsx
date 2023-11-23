@@ -25,7 +25,7 @@ const Navbar = () => {
                 <div className="nav-name">
 
                     <div>
-                        <h3 className="name"> Home</h3>
+                        <h3> Home</h3>
                     </div>
 
                     <div>

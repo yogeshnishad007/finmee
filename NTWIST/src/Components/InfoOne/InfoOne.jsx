@@ -1,27 +1,27 @@
 
-import "../Common/InfoTwo.css"
+import "../InfoOne/InfoOne.css"
 
-const InfoTwo = ({Heading,Details,Image}) => {
+const InfoOne = ({Heading,Details,Image}) => {
 
     return (
 
         <>
 
-            <div className="main-div">
+            <div className="main-conatiner">
 
-                <div className="heading-div">
+                <div className="heading-con">
                     <h1>{Heading}</h1>
 
-                    <div className="details-div">
+                    <div className="details-con">
                         <h5>{Details}</h5>
                     </div>
 
-                    <div className="btn-div">
+                    <div className="btn-con">
                         <button>Read More</button>
                     </div>
                 </div>
 
-                <div className="img-div">
+                <div className="img-con">
                     <img src={Image} alt="" />
                 </div>
 
@@ -32,4 +32,4 @@ const InfoTwo = ({Heading,Details,Image}) => {
 
 }
 
-export default InfoTwo;
+export default InfoOne;
