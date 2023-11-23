@@ -1,0 +1,43 @@
+
+.main-conatiner{
+     display: flex;
+     justify-content: space-between;
+}
+.heading-con>h1{
+    color: #FF3A2D;
+    font-size: 43px;
+    text-align: left
+}
+
+
+.details-con>h5{
+       
+    width: 96%;
+    line-height: 1.66em;
+    font-family:"Roboto",sans-serif;
+    font-size: 1rem;
+    text-align: left
+}
+
+.img-con>img{
+
+    width: 500px;
+    height: 400px;
+
+}
+
+.btn-con{
+    text-align: left
+}
+
+.btn-con>button{
+   
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF3A2D;
+    color: white;
+    font-size: medium;
+    
+}
