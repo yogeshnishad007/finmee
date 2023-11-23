@@ -2,16 +2,17 @@
 import './App.css'
 import InfoOne from './Common/InfoOne'
 import InfoTwo from './Common/InfoTwo'
-import Navbar from './Components/Navbar'
+import Header from './Components/Header/Header'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
 
 
   return (
     <>
-      <h1>NTWIST</h1>
-
+   
       <Navbar />
+      <Header/>
 
       <InfoOne
         Heading={"Mine-To-Mill-To-Mine Optimization"}

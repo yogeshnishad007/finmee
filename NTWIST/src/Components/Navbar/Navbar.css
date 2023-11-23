@@ -1,0 +1,44 @@
+ .nav-con{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    position: sticky;
+    top: 0; 
+    background-color: white; 
+    z-index: 100;
+    
+}
+.nav-heading{
+    margin-top: -10px;
+}
+
+.nav-name{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.nav-heading{
+     display: flex;
+     gap: 10px;
+}
+.nav-heading>h1{
+
+      font-weight: 400;
+      color:#003358;
+
+}
+
+.nav-heading>img{
+   width: 40px;
+   height: 40px;
+   margin-top: 20px;
+}
+
+.nav-name>div>h3{
+    color:#003358;
+} 
+
+
+
