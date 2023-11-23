@@ -1,5 +1,4 @@
 
-import Ind from "../../assets/indus.png"
 import Icon from "../../assets/image-icons.png"
 import "../Header/Header.css"
 const Header =()=>{
